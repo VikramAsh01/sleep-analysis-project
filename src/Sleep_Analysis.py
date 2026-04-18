@@ -12,6 +12,7 @@ main_file = pd.read_csv("../data/Sleep_issues_dataset.csv")
 # 2. Basic Info
 print(main_file.info())
 print(main_file.describe())
+print(main_file.shape())
 
 # 2. Check missing values
 print("Missing Values:\n", main_file.isnull().sum())#No empty values
